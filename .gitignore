@@ -40,4 +40,7 @@ terraform.rc
 # Ignore .pem file
 *.pem
 
+# Ignore .lock.hcl files
+*.lock.hcl
+
 # End of https://www.toptal.com/developers/gitignore/api/terraform
