@@ -1,0 +1,25 @@
+variable "subnet_id" {
+    description = "ID của private subnet"
+    type        = string
+}
+
+variable "security_group_id" {
+    description = "ID của security group cho Jenkins server"
+    type        = string
+}
+
+variable "key_name" {
+    description = "Tên của SSH key pair trong AWS"
+    type        = string
+}
+
+variable "instance_type" {
+    description = "Loại EC2 instance cho Jenkins server"
+    type        = string
+    default     = "t2.small"
+}
+
+variable "project_name" {
+    description = "Tên dự án, được sử dụng cho việc đặt tên các resource"
+    type        = string
+}
