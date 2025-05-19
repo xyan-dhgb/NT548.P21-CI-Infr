@@ -7,7 +7,7 @@ sudo apt-get update -y
 sudo apt-get upgrade -y
 
 # 2. Cài Java 11
-sudo apt-get install -y openjdk-11-jdk
+sudo apt install openjdk-17-jdk
 
 # 3. Cài các tiện ích cần thiết
 sudo apt-get install -y git wget htop vim unzip curl gnupg2
