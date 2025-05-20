@@ -30,7 +30,7 @@ terraform apply
 - **Jenkins Server**: Sau khi khởi tạo, truy cập Jenkins qua địa chỉ IP private/public (tùy cấu hình) trên port 8080
 - **SonarQube Server**: Truy cập qua port 9000
 
-> **Lưu ý:** Đảm bảo Security Group đã mở port 22 (SSH), 8080 (Jenkins), 9000 (SonarQube) cho IP của bạn hoặc dải IP phù hợp.
+> **Lưu ý:** Đảm bảo Security Group đã mở port 22 (SSH), 8080 (Jenkins), 9000 (SonarQube) cho IP hoặc dải IP phù hợp.
 
 ## Lấy mật khẩu admin Jenkins
 
@@ -53,5 +53,3 @@ terraform destroy
 - [Jenkins Documentation](https://www.jenkins.io/doc/)
 - [SonarQube Documentation](https://docs.sonarqube.org/)
 - [Terraform AWS Provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
-
-Nếu bạn cần bổ sung phần nào chi tiết hơn (ví dụ: hướng dẫn cấu hình Jenkins, SonarQube, CI/CD pipeline...), hãy cho mình biết nhé!
